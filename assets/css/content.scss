@@ -1,0 +1,64 @@
+.nuxt-content {
+  @apply dark:text-gray-200;
+
+  code {
+    @apply text-blue-700 dark:text-blue-400;
+  }
+
+  strong {
+    @apply dark:text-gray-300;
+  }
+
+  .nuxt-content-highlight {
+    @apply relative mt-8 sm:mt-8 md:mt-10;
+
+    .filename {
+      @apply text-purple-200 absolute left-0 right-0 text-center py-2 rounded-t-lg -top-6 sm:-top-8 bg-black z-10 leading-none flex px-2 sm:px-4 justify-between items-center;
+    }
+
+    .filename::after {
+      content: '';
+      @apply h-4 w-4 sm:w-5 sm:h-5 text-black bg-red-500 rounded-full font-extrabold flex justify-center items-center;
+    }
+  }
+
+  pre {
+    @apply rounded-lg pt-2;
+  }
+
+  > :not(pre) > code {
+    @apply text-emerald-500 tracking-tighter overflow-x-auto;
+  }
+
+  a {
+    @apply dark:text-red-200 italic no-underline hover:underline;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply underline dark:text-emerald-50;
+
+    a {
+      @apply ml-5;
+
+      /* stylelint-disable */
+      ::before {
+        content: '#';
+        @apply text-purple-500 text-xl sm:text-2xl -ml-5 pr-2 appearance-none no-underline;
+      }
+    }
+  }
+  h4,
+  h5,
+  h6 {
+    @apply dark:text-yellow-300;
+  }
+  /* stylelint-enable */
+}
+
+article:last-child {
+  p {
+    margin-bottom: 0;
+  }
+}

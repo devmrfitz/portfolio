@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Nuxtjs",
+        "link": "https://nuxtjs.org/",
+        "color": "#00c58e"
+    },
+    {
+        "name": "WindiCSS",
+        "link": "https://windicss.com/",
+        "color": "#48b0f1"
+    },
+    {
+        "name": "Content",
+        "link": "https://content.nuxtjs.org/",
+        "color": "#00dc81"
+    }
+]

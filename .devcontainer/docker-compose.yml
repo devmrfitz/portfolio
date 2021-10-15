@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  development-machine:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+
+    container_name: portfolio-website
+
+    volumes:
+      - ..:/workspace/portfolio-website:cached
+
+    command: sleep infinity

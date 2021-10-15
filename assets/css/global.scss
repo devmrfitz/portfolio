@@ -1,0 +1,59 @@
+@import './page-transitions';
+@import './fonts';
+
+.feather {
+  height: 1em;
+  width: 1em;
+}
+
+html {
+  scrollbar-color: #c0a062 #161616;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161616;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c0a062;
+  border-radius: 10px;
+}
+
+main {
+  @apply px-12px sm:px-16px md:px-18px lg:px-32px xl:px-48px 2xl:px-64px;
+}
+
+*::selection {
+  @apply bg-orange-500;
+}
+
+[wn\:text~='brand-dark']::selection,
+.text-brand-dark::selection {
+  @apply bg-gray-800;
+}
+
+/* stylelint-disable */
+.gradient-text {
+  background-clip: text;
+  background-color: #fa4d56;
+  background-image: conic-gradient(
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+  background-size: 30%;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}

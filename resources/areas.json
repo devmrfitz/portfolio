@@ -1,0 +1,14 @@
+[
+  {
+    "name": "CollabAmigo",
+    "description": "",
+    "image": "/assets/collabamigo.svg",
+    "path": "https://collabamigo.com"
+  },
+  {
+    "name": "Edu-Buddy",
+    "description": "",
+    "image": "Edu-Buddy",
+    "path": "https://github.com/devmrfitz/edu-buddy"
+  }
+]

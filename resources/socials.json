@@ -1,0 +1,27 @@
+[
+    {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/devmrfitz",
+        "componentName": "LinkedinIcon"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/devmrfitz",
+        "componentName": "TwitterIcon"
+    },
+    {
+        "name": "Github",
+        "link": "https://github.com/devmrfitz",
+        "componentName": "GithubIcon"
+    },
+    {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/apsaditya51/",
+        "componentName": "InstagramIcon"
+    },
+    {
+        "name": "Email",
+        "link": "mailto:adityapratapsingh51@gmail.com",
+        "componentName": "MailIcon"
+    }
+]
